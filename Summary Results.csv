@@ -1,0 +1,10 @@
+Exp,Model,Dataset,Attribute,GD,ms/img,p-value
+A1,ViT-B/32,UTKFace,Gender,0.025,1.4,1.186e-02
+A2,ViT-B/32,UTKFace,Race,0.1257,1.4,3.838e-06
+B1,ViT-L/14,UTKFace,Gender,0.0061,24.56,5.243e-01
+B2,ViT-L/14,UTKFace,Race,0.3613,24.56,2.120e-57
+C1,ViT-B/32,FairFace,Gender,0.0052,1.4,6.963e-01
+C2,ViT-B/32,FairFace,Race,0.431,1.4,1.277e-52
+C3,ViT-L/14,FairFace,Gender,0.004,24.56,7.195e-01
+C4,ViT-L/14,FairFace,Race,0.5397,24.56,5.336e-67
+D1,ViT-B/32 INT8,UTKFace(400),Gender,0.025,2.52,1.186e-02
